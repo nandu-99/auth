@@ -15,7 +15,7 @@ The client application is built with React and uses Axios for API requests. It p
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
+    git clone git@github.com:nandu-99/auth.git
     ```
 
 2. **Navigate to the client directory:**
@@ -78,7 +78,7 @@ The server application is built with Express and uses MongoDB for data storage. 
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
+    git clone git@github.com:nandu-99/auth.git
     ```
 
 2. **Navigate to the server directory:**
