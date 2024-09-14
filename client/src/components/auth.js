@@ -31,7 +31,7 @@ function AuthForm({ mode }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, password } = formData;
-
+    
     try {
       const response = isSignup ? await signup({ name, email, password }) : await login({ email, password });
       toast.success(isSignup ? 'Signup successful!' : 'Login successful!');
