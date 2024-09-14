@@ -1,4 +1,7 @@
-const url = 'http://localhost:3003';
+const url = process.env.url;
+
+// for local server you can use url as 'http://localhost:3003';
+// for production server you can use url as 'your hosted url';
 
 export const signup = async ({ name, email, password }) => {
   const response = await fetch(`${url}/signup`, {
