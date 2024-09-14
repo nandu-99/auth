@@ -1,5 +1,4 @@
-const url = process.env.url;
-
+const url = 'auth-server-1cpuj2xfb-vivekanandas-projects-8d25ae23.vercel.app';
 // for local server you can use url as 'http://localhost:3003';
 // for production server you can use url as 'your hosted url';
 
